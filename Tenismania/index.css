@@ -1,0 +1,275 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.imglogo{
+    width: 300px;
+    height: 200px;
+}
+.cabecalho{
+    list-style-type: none;
+    background-image: url("./img/black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+   
+}
+.form{
+    background-color: yellow;
+    padding: 3px;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
+.tempo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+}
+
+.masterprodutos{
+    background-color:black;
+    padding: 10px;
+    width: 100%;
+    height: 650px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.produto{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+
+}
+.produto1{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+
+}
+
+.img1{
+    width: 400px;
+    height: 200px;
+}
+
+.img{
+    width: 600px;
+    height: 200px;
+}
+
+.redes{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color:yellow;
+    align-items: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul{
+    margin-left: 450px;
+    margin-right: auto;
+}
+
+li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 40px;
+}
+input{
+    margin-top: 10px;
+    width: 30%;
+    height: 25px;
+}
+button{
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    font-weight: bold;
+
+}
+a{
+    cursor: pointer;
+}
+@media (max-width: 720px) {
+
+    .imglogo{
+        width: 30%;
+        height: 100px;
+    }
+
+    .cabecalho{
+        list-style-type: none;
+        background-image: url("./img/black.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 5px;
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .form{
+        background-color: yellow;
+        padding: 10px;
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        text-align: center;
+    }
+    .masterprodutos{
+        padding: 3px;
+        height: 1350px;
+       
+    }
+
+    .produto{
+        margin-right: auto;
+        margin-left: auto;
+        float: inherit;
+    
+    
+    }
+    
+    .img1{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .img{
+        width: 300px;
+        height: 200px;
+    }
+    .redes{
+        
+        margin-top: 0px;
+        width: 100%;
+        height: 100px;
+        background-color:yellow;
+        align-items: center;
+    }
+    ul{
+        float: inherit;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+
+    input{
+        margin-top: 10px;
+        width: 80%;
+        height: 25px;
+    }
+    button{
+        margin-top: 20px;
+        width: 50%;
+        height: 30px;
+       
+    
+    }
+
+    strong{
+        width: 80%;
+    }
+
+   
+
+    li{
+        width: 25%;
+        margin: 2px;
+    }
+
+}
+
+@media (min-width:768px )and (max-width: 1040px){
+
+   
+
+    .masterprodutos{
+        padding: 3px;
+        height: 1350px;
+       
+    }
+
+    .produto{
+        margin-right: auto;
+        margin-left: auto;
+        float: inherit;
+    
+    
+    }
+    
+    .img1{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .img{
+        width: 400px;
+        height: 200px;
+    }
+    .redes{
+        
+        margin-top: 0px;
+        width: 100%;
+        height: 100px;
+        background-color:yellow;
+        align-items: center;
+    }
+   
+    ul{
+        float: inherit;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+
+    input{
+        margin-top: 10px;
+        width: 60%;
+        height: 25px;
+    }
+    button{
+        margin-top: 20px;
+        width: 50%;
+        height: 30px;
+       
+    
+    }
+
+    strong{
+        width: 80%;
+    }
+
+   
+
+    li{
+        width: 25%;
+        margin: 2px;
+    }
+
+}
+
+
+
+    
+
+
+
